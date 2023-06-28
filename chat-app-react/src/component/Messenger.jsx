@@ -56,9 +56,7 @@ function ChatRoom () {
     const registerUser = () =>{
         // instantiate a SockJS client object that can be used to establish a WebSocket-like connection to a server that supports SockJS. Specify the server endpoint
         let sock = new SockJS('http://localhost:8080/ws')
-        //aws endpoint:
-        // let sock = new SockJS('http://webchatapp-env.eba-byb75tmj.ap-southeast-2.elasticbeanstalk.com/ws')
-        
+            
         //create stomp client object using sock websocket object.'Over' allows the use of other types of websocckets as not all browsers support the same version of websockets,
         //or websockets in general. 
         stompClient=over(sock)
