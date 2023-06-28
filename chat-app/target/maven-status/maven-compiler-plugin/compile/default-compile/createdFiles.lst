@@ -1,0 +1,5 @@
+com\project\chatapp\controller\model\Message.class
+com\project\chatapp\controller\model\Status.class
+com\project\chatapp\config\WebsocketConfig.class
+com\project\chatapp\ChatAppApplication.class
+com\project\chatapp\controller\ChatController.class
